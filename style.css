@@ -46,31 +46,153 @@ header, footer {
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@700&display=swap');
+
+
+body {
+  font-family: 'Inter', sans-serif; 
+  line-height: 1.5; 
+}
+
+header h1,
+h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif; 
+ 
+}
+header h2, h3, h4, h5, h6 {
+  font-size: 2rem;
+}
+
+a[href="https://en.wikipedia.org/wiki/Examination"]::after {
+  content: '';
+  display: inline-block;
+  width: 20px; 
+  height: 20px;
+  background-image: url('./external-link-52.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+
+a[href="https://en.wikipedia.org/wiki/Jobs"]::after {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('./external-link-52.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+
+a[href="https://en.wikipedia.org/wiki/Career"]::after {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('./external-link-52.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+
+a[href="https://en.wikipedia.org/wiki/Emotion"]::after {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('./external-link-52.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+
+header {
+  background-color: #f8f8f8; 
+  padding: 20px; 
+}
+
+header h1 {
+  text-align: center; 
+  font-size: 2.5em; 
+  font-weight: 600; 
+}
+
+
 
 body {
   font-family: 'Inter', sans-serif;
 }
 
+p {
+  line-height: 1.5; 
+  margin-bottom: 1rem;
+}
+
+section h2 + p {
+  text-indent: 1.25rem; 
+}
+
+
 a {
-  color: #333;
-  text-decoration: none;
+  color: #a66; 
+  text-decoration: underline; 
 }
 
-a:hover {
-  color: #a66;
-  text-decoration: underline;
+a:hover,
+a:focus {
+  text-decoration: none; 
 }
 
-header {
-  background-color: #f8f8f8;
+
+nav a {
+  display: block;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 2px solid #a66;
+  border-radius: 5px;
+  margin-bottom: 10px;
   text-align: center;
-  font-size: 2em;
-  font-weight: 600;
 }
 
-section, aside {
-  background-color: #fafafa;
-  border: 1px solid #ddd;
-  border-radius: 10px;
+nav a:hover,
+nav a:focus {
+  background-color: #a66;
+  color: white;
+  text-decoration: none; 
+}
+
+nav ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+nav li {
+  margin-bottom: 10px; 
+}
+
+nav a {
+  display: block; 
+  padding: 10px 15px; 
+  color: #a66; 
+  text-decoration: underline; 
+  transition: background-color 0.3s; 
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #a66; 
+  color: white; 
+  text-decoration: none; 
+}
+
+aside nav a {
+  text-decoration: underline; 
+}
+
+aside nav a:hover,
+aside nav a:focus {
+  text-decoration: none; 
 }
 
