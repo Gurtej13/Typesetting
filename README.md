@@ -35,6 +35,4 @@ The website serves as an informational page for St Huxley's Community College. I
 ## Contributing
 Feel free to contribute to this project by suggesting improvements or adding features. Please submit a pull request for any changes you would like to propose.
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
 
